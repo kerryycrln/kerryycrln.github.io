@@ -996,7 +996,7 @@ time, mark, audio, video {
         font-size: 14px;
     }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 439px) {
     .products_slider .product_item{
        padding: 33px 22px;
     }
@@ -1031,7 +1031,7 @@ time, mark, audio, video {
         gap: 40px;
     }
     .menu_nav_header{
-        max-height: 440px;
+        max-height: 540px;
         top: 100px;
         padding:0;
     }
