@@ -972,7 +972,7 @@ time, mark, audio, video {
         font-size: 25px;
     }
     .modal_window_content{
-        padding: 140px 35px;
+        padding: 60px 35px;
     }
     .calculator{
         padding: 30px 10px;
@@ -1035,9 +1035,9 @@ time, mark, audio, video {
         top: 100px;
         padding:0;
     }
-    .modal_window_content{
+/*     .modal_window_content{
         padding: 120px 35px;
-    }
+    } */
     .modal_title{
         font-size: 20px;
     }
