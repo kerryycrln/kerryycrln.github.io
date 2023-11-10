@@ -273,7 +273,7 @@ time, mark, audio, video {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .reviews_wrapper{
     width: 100%;
@@ -996,7 +996,7 @@ time, mark, audio, video {
         font-size: 14px;
     }
 }
-@media screen and (max-width: 387px) {
+@media screen and (max-width: 430px) {
     .products_slider .product_item{
        padding: 33px 22px;
     }
@@ -1004,7 +1004,7 @@ time, mark, audio, video {
         padding: 33px 22px;
     }
     .client_photo{
-        width: 70px;
+        width: 50px;
     }
     .main_title, .basic_title, .menu_nav_header_list a{
         font-size: 20px;
@@ -1028,7 +1028,7 @@ time, mark, audio, video {
         width: 70%;
     }
     .menu_nav_header_list{
-        gap: 30px;
+        gap: 40px;
     }
     .menu_nav_header{
         max-height: 440px;
