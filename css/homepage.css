@@ -80,44 +80,6 @@ time, mark, audio, video {
 .nav_header a:hover{
     color: #ff973c;
 }
-.menu_nav_header{
-    display: none;
-    background: rgba(0, 0, 0, 0.42);
-    border-radius: 20px;
-    backdrop-filter: blur(3px);
-    position: absolute;
-    top: 150px;
-   
-    width: 100%;
-    z-index: 1;
-    padding: 60px 75px;
-    height: 100%;
-    max-height: 640px;
- }
-
- .menu_nav_header_list{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-self: center;
-    height: 100%;
-    gap: 50px;
- }
- .menu_nav_header_list a{
-    color: #FFF;
-    text-align: center;
-    text-decoration: none;
-    font-family: Nunito;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    transition: 0.3s;
- }
- .menu_nav_header_list a:hover{
-    color: #ff973c;
- }
 .main_title{
     color: #FFF;
     font-family: Nunito;
@@ -367,9 +329,6 @@ time, mark, audio, video {
 }
 
 @media screen and (max-width: 562px) {
-    .menu_nav_header_list a{
-        font-size: 26px;
-    }
     .header_top img{
         width: 90px;
     }
