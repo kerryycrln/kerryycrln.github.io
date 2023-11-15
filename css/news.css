@@ -241,7 +241,8 @@ time, mark, audio, video {
 }
 
 
-@media screen and (max-width: 970px)
-.nav_menu {
-    display: none;
+@media screen and (max-width: 970px){
+    .nav_menu {
+        display: none;
+    }
 }
