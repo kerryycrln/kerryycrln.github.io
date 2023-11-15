@@ -56,12 +56,6 @@ time, mark, audio, video {
     width: 100%;
 }
 
-.header_top{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 95px;
-}
 .nav_header{
     display: flex;
     gap: 37px;
@@ -329,9 +323,7 @@ time, mark, audio, video {
 }
 
 @media screen and (max-width: 562px) {
-    .header_top img{
-        width: 90px;
-    }
+
     .after_logo_header{
         gap: 30px;
         justify-content: center;
