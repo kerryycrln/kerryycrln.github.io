@@ -239,3 +239,9 @@ time, mark, audio, video {
     color: #FFC737;
     border: 3px solid #FFC737;
 }
+
+
+@media screen and (max-width: 970px)
+.nav_menu {
+    display: none;
+}
