@@ -1,0 +1,241 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Nunito";
+    font-display: swap;
+    src: local('Nunito-Regular'), local('Nunito-Regular'), url('../fonts/Nunito-Regular.woff2') format('woff2'), url('../fonts/Nunito-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Nunito";
+    font-display: swap;
+    src: local('Nunito-Bold'), local('Nunito-Bold'), url('../fonts/Nunito-Bold.woff2') format('woff2'), url('../fonts/Nunito-Bold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Nunito";
+    font-display: swap;
+    src: local('Nunito-Medium'), local('Nunito-Medium'), url('../fonts/Nunito-Medium.woff2') format('woff2'), url('../fonts/Nunito-Medium.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Nunito";
+    font-display: swap;
+    src: local('Nunito-SemiBold'), local('Nunito-SemiBold'), url('../fonts/Nunito-SemiBold.woff2') format('woff2'), url('../fonts/Nunito-SemiBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.header_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo_header{
+    width: 110px;
+}
+.nav_menu{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.menu_item{
+    transition: 0.3s;
+    color: #575E61;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+.menu_item:hover{
+    color: #df542f;
+}
+
+.main_post_wrapper{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 47px;
+    max-height: 650px;
+    position: relative;
+    box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.08);
+}
+.main_post_text, .upper_filter_news{
+    position: absolute;
+}
+.upper_filter_news{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 47px;
+    background: linear-gradient(259deg, rgba(211, 183, 83, 0.20) 16.01%, rgba(152, 86, 25, 0.20) 83.29%);
+    backdrop-filter: blur(4px);
+    max-height: 650px;
+}
+.main_post_text{
+    z-index: 2;
+    padding: 88px 32px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.desc_news{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.news_title{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.text_news{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    max-width: 992px;
+}
+.news_img{
+    width: 100%;
+    border-radius: 47px;
+    max-height: 650px;
+    object-fit: cover;
+}
+
+.news{
+    margin-bottom: 75px;
+}
+.section_news_list_title{
+    color: #575E61;
+    font-family: Nunito;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.news_list_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.news_list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 43px 28px;
+}
+
+.news_item{
+    position: relative;
+    border-radius: 47px;
+    box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.08);
+}
+
+
+.news_item_txt, .upper_filter_news_list{
+    position: absolute;
+}
+.upper_filter_news_list{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 47px;
+    background: linear-gradient(259deg, rgba(255, 236, 171, 0.20) 15.47%, rgba(255, 205, 159, 0.20) 81.79%);
+    backdrop-filter: blur(3px);
+}
+.news_item_txt{
+    z-index: 2;
+    padding: 31px 17px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+.news_item_img{
+    width: 100%;
+    border-radius: 47px;
+    object-fit: cover;
+}
+.desc_news_list{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.text_news_list{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.load_more_news{
+    padding: 15px 45px;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    border-radius: 47px;
+    background: #FFC737;
+    box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: 0.3s;
+    max-width: 315px;
+    max-height: 77px;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #FFC737;
+}
+.load_more_news:hover{
+    background: #ffffff;
+    color: #FFC737;
+    border: 3px solid #FFC737;
+}

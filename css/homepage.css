@@ -1,0 +1,428 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Nunito";
+    font-display: swap;
+    src: local('Nunito-Regular'), local('Nunito-Regular'), url('../fonts/Nunito-Regular.woff2') format('woff2'), url('../fonts/Nunito-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Nunito";
+    font-display: swap;
+    src: local('Nunito-Bold'), local('Nunito-Bold'), url('../fonts/Nunito-Bold.woff2') format('woff2'), url('../fonts/Nunito-Bold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Nunito";
+    font-display: swap;
+    src: local('Nunito-Medium'), local('Nunito-Medium'), url('../fonts/Nunito-Medium.woff2') format('woff2'), url('../fonts/Nunito-Medium.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Nunito";
+    font-display: swap;
+    src: local('Nunito-SemiBold'), local('Nunito-SemiBold'), url('../fonts/Nunito-SemiBold.woff2') format('woff2'), url('../fonts/Nunito-SemiBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+.top_section{
+    background: url("../img/header_background.svg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.header_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 95px;
+}
+.nav_header{
+    display: flex;
+    gap: 37px;
+}
+.nav_header a{
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: 0.3s;
+}
+.nav_header a:hover{
+    color: #ff973c;
+}
+.menu_nav_header{
+    display: none;
+    background: rgba(0, 0, 0, 0.42);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    position: absolute;
+    top: 150px;
+   
+    width: 100%;
+    z-index: 1;
+    padding: 60px 75px;
+    height: 100%;
+    max-height: 640px;
+ }
+
+ .menu_nav_header_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    height: 100%;
+    gap: 50px;
+ }
+ .menu_nav_header_list a{
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    font-family: Nunito;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: 0.3s;
+ }
+ .menu_nav_header_list a:hover{
+    color: #ff973c;
+ }
+.main_title{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.main_pretitle{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.contact_us .main_pretitle{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.after_logo_header{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.button_contact_us{
+    cursor: pointer;
+    padding: 23px;
+    max-width: 300px;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    border-radius: 50px;
+    background: #FFC737;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.10);
+    transition: 0.3s;
+    margin-bottom: 120px;
+}
+.button_contact_us:hover{
+    background: #ffffff;
+    color: #FFC737;
+}
+.products{
+    background: url("../img/products_background.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 150px;
+}
+.products_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    justify-content: center;
+    padding-top: 150px;
+}
+.basic_title{
+    color: #000;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.basic_pretitle{
+    color: #B9BABC;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 72px;
+}
+.products_list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    justify-self: center;
+    gap: 62px 100px;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1221px) {
+    .products_list{
+        gap: 20px;
+    }
+}
+
+.product_item{
+    text-decoration: none;
+    flex: 0 0 calc(50% - 50px);
+    border-radius: 47px;
+    width: 100%;
+    height: 100%;
+    max-width: 538px;
+    max-height: 374px;
+    padding: 33px 72px;
+    background: #FFF;
+    box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.product_item:hover{
+    box-shadow: 0px 2px 30px 0px #ffddc3;
+}
+.product_item img{
+    width: 100%;
+    max-width: 393px;
+    max-height: 158px;
+    margin-bottom: 32px;
+}
+.product_item_title{
+    color: #FFA645;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+}
+.product_item_desc{
+    color: #575E61;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.reviews{
+    background: url("../img/blob_reviews.svg");
+    background-size: fit;
+    background-repeat: no-repeat;
+    padding-bottom: 120px;
+}
+.review_item{
+    max-width: 827px;
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+    border-radius: 47px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.reviews_list{
+    max-width: 700px;
+    box-shadow: 0px 2px 30px 0px rgba(255, 0, 92, 0.09);
+    border-radius: 47px;
+}
+.review_header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.client_photo{
+    width: 100px;
+    border-radius: 100%;
+}
+.client_name{
+    color: #FFA645;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.client_txt{
+    color: #575E61;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+.reviews_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.products_slider_wrapper{
+    visibility: hidden;
+    position: absolute;
+}
+
+.products_slider{
+    /* display: flex; */
+    box-shadow: 0px 2px 30px 0px #ffddc3;
+    border-radius: 47px;
+    /* align-items: center; */
+    width: 100%;
+    max-width: 538px;
+}
+
+.products_slider .product_item{
+    /* width: 100%; */
+    box-shadow: none;
+    max-width: 538px;
+}
+
+.product_img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 860px) {
+    .products_list{
+        display: none;
+    }
+    .products_slider_wrapper{
+        visibility: visible;
+        position: relative;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 683px) {
+    .main_title{
+        font-size: 40px;
+    }
+    .main_pretitle{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    .menu_nav_header_list a{
+        font-size: 26px;
+    }
+    .header_top img{
+        width: 90px;
+    }
+    .after_logo_header{
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .main_title{
+        font-size: 36px;
+        text-align: center;
+    }
+    .main_pretitle{
+        font-size: 19px;
+        text-align: center;
+    }
+    .button_contact_us{
+        max-width: 230px;
+        font-size: 19px;
+    }
+
+    .products_content{
+        padding-top:80px
+    }
+    
+    .products{
+        margin-bottom: 80px;
+    }
+    .basic_title{
+        font-size: 30px;
+    }
+    .basic_pretitle{
+        font-size: 18px;
+        margin-bottom: 50px
+    }
+}
+@media screen and (max-width: 500px) {
+    .after_logo_header{
+        gap: 20px;
+    }
+    .main_title{
+        font-size: 32px;
+    }
+    .main_pretitle{
+        font-size: 15px;
+    }
+    .button_contact_us{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 456px) {
+    .basic_title{
+        font-size: 25px;
+    }
+}

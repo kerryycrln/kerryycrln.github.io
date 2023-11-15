@@ -1,25 +1,4 @@
 $(document).ready(function() {
-    // Sliders
-    $('.reviews_list').slick({
-        slidesToShow: 1,
-    
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        prevArrow: $('.slider-left-arrow'),
-        nextArrow: $('.slider-right-arrow'),
-    });
-
-    $('.products_slider').slick({
-        slidesToShow: 1,
-    
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        prevArrow: $('.slider-left-arrow'),
-        nextArrow: $('.slider-right-arrow'),
-    });
-
     // Modal fading function
     function fade_modal_in(modal_window_name, e){
     e.preventDefault();
