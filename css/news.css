@@ -247,13 +247,121 @@ time, mark, audio, video {
     filter: brightness(0.5);
 }
 
+@media screen and (max-width: 1184px){
+    .news_title{
+        font-size: 30px;
+    }
+    .news_list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 1140px){
+    .news_list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 @media screen and (max-width: 970px){
     .nav_menu {
         display: none;
     }
+    .main_post_text{
+        padding: 40px 32px;
+    }
+}
+@media screen and (max-width: 895px){
+    .news_title{
+        font-size: 20px;
+    }
 }
 
+@media screen and (max-width: 830px){
+    .nav_menu {
+        display: none;
+    }
+}
+@media screen and (max-width: 755px){
+    .text_news_list {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 882px){
+    .news_list {
+        grid-template-columns: 1fr;
+    }
+    .news_item_txt{
+        padding: 50px 32px;
+    }
+    .text_news_list{
+        font-size: 15px;
+    }
+    .desc_news_list{
+        font-size: 40px;
+    }
+    .main_post{
+        display: none;
+    }
+}
+@media screen and (max-width: 605px){
+    .news_list {
+        gap: 30px 28px;
+    }
+}
+@media screen and (max-width: 580px){
+    .desc_news_list {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 562px){
+    .logo_header {
+        width: 90px;
+    }
+}
+@media screen and (max-width: 530px){
+    .section_news_list_title{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 515px){
+    .section_news_list_title{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .container_main{
+        padding: 5px 10px;
+    }
+}
+@media screen and (max-width: 439px){
+    .header_content svg{
+        width: 80px;
+    }
+    .logo_header {
+        width: 60px;
+    }
+}
+@media screen and (max-width: 415px){
+    .news_item_txt {
+        padding: 30px 18px;
+    }
+    .section_news_list_title{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 382px){
+    .desc_news_list {
+        font-size: 18px;
+    }
+    .text_news_list{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 363px){
+    .news_item, .upper_filter_news_list, .news_item_img{
+        border-radius: 30px;
+    }
+
+}
 .news_item{
     display: none;
 }
