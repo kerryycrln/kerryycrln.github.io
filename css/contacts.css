@@ -1,0 +1,105 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Nunito";
+    font-display: swap;
+    src: local('Nunito-Regular'), local('Nunito-Regular'), url('../fonts/Nunito-Regular.woff2') format('woff2'), url('../fonts/Nunito-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Nunito";
+    font-display: swap;
+    src: local('Nunito-Bold'), local('Nunito-Bold'), url('../fonts/Nunito-Bold.woff2') format('woff2'), url('../fonts/Nunito-Bold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Nunito";
+    font-display: swap;
+    src: local('Nunito-Medium'), local('Nunito-Medium'), url('../fonts/Nunito-Medium.woff2') format('woff2'), url('../fonts/Nunito-Medium.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Nunito";
+    font-display: swap;
+    src: local('Nunito-SemiBold'), local('Nunito-SemiBold'), url('../fonts/Nunito-SemiBold.woff2') format('woff2'), url('../fonts/Nunito-SemiBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.contacts_container{
+    border-radius: 47px;
+    background: #FFF;
+    box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.08);
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title_contacts{
+    color: #575E61;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.contacts_list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin: 40px 0;
+}
+.contacts_item{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contacts_item_title{
+    color: #575E61;
+    font-family: Nunito;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.phone, .email, .address{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.phone a, .email a, .address p{
+    color: #575E61;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+.google_location{
+    width: 100%;
+    border-radius: 30px;
+}
