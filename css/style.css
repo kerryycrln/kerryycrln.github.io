@@ -136,10 +136,10 @@ time, mark, audio, video {
     width: 110px;
  }
  .short_info_footer_txt{
-    margin-top: 24px;
+    margin-top: 21px;
     color: #FFF;
     font-family: Nunito;
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
