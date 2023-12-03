@@ -66,12 +66,22 @@ time, mark, audio, video {
     font-weight: 600;
     line-height: normal;
 }
-.contacts_list{
+
+.contacts_list, .contacts_list_adresses{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
+    align-items: start;
     margin: 40px 0;
+    gap: 20px;
 }
+
+.contacts_list{
+    grid-template-columns: repeat(3, 1fr);
+}
+.contacts_list_adresses{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
 .contacts_item{
     display: flex;
     flex-direction: column;
@@ -80,7 +90,7 @@ time, mark, audio, video {
 .contacts_item_title{
     color: #575E61;
     font-family: Nunito;
-    font-size: 25px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -93,7 +103,7 @@ time, mark, audio, video {
 .phone a, .email a, .address p{
     color: #575E61;
     font-family: Nunito;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -102,4 +112,81 @@ time, mark, audio, video {
 .google_location{
     width: 100%;
     border-radius: 30px;
+}
+
+.svg{
+    width: 50px;
+    height: 48px;
+}
+.svg_pin{
+    width: 45px;
+    height: 45px;
+}
+.adress_title{
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1025px) {
+    .contacts_container{
+        padding: 50px 30px;
+    }
+    .contacts_item_title{
+        font-size: 20px;
+    }
+    .phone a, .email a, .address p{
+        font-size: 15px;
+    }
+    .svg{
+        width: 40px;
+        height: 38px;
+    }
+    .svg_pin{
+        width: 35px;
+        height: 35px;
+    }
+    .adress_title{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .svg{
+        width: 30px;
+        height: 28px;
+    }
+    .svg_pin{
+        width: 25px;
+        height: 25px;
+    }
+}
+@media screen and (max-width: 712px) {
+    .contacts_list{
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+}
+@media screen and (max-width: 515px) {
+    .contacts_container{
+        margin-bottom: 30px;
+        border-radius: 35px;
+    }
+    .google_location{
+        max-height: 300px;
+    }
+}
+@media screen and (max-width: 485px) {
+    .title_contacts{
+        font-size: 25px;
+    }
+    .contacts_list{
+        grid-template-columns: 1fr;
+        gap: 37px;
+    }
+    .contacts_item_title{
+        font-size: 18px;
+    }
+    .contacts_list_adresses{
+        grid-template-columns: 1fr;
+        gap: 37px;
+    }
 }
