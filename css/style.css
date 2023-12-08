@@ -522,6 +522,39 @@ time, mark, audio, video {
     margin-bottom: 0;
 }
 
+
+
+
+
+
+.button_contact_us{
+    cursor: pointer;
+    padding: 23px;
+    max-width: 300px;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    border-radius: 50px;
+    background: #FFC737;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.10);
+    transition: 0.3s;
+    margin-bottom: 120px;
+}
+.button_contact_us:hover{
+    background: #ffffff;
+    color: #FFC737;
+}
+
+
+
+
+
+
 @media screen and (max-width: 1107px) {
     .short_info_footer_txt{
         width: 350px;
@@ -629,6 +662,10 @@ time, mark, audio, video {
     }
 }
 @media screen and (max-width: 562px) {
+    .button_contact_us{
+        max-width: 230px;
+        font-size: 19px;
+    }
     .container_main{
         padding: 20px 10px;
     }   
@@ -647,6 +684,9 @@ time, mark, audio, video {
     }
 }
 @media screen and (max-width: 500px) {
+    .button_contact_us{
+        font-size: 15px;
+    }
     .calculator .modal_buttons{
         justify-content: center;
     }
