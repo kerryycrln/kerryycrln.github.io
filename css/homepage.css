@@ -105,7 +105,7 @@ time, mark, audio, video {
     flex-direction: column;
     gap: 50px;
 }
-.button_contact_us{
+/* .button_contact_us{
     cursor: pointer;
     padding: 23px;
     max-width: 300px;
@@ -126,7 +126,7 @@ time, mark, audio, video {
 .button_contact_us:hover{
     background: #ffffff;
     color: #FFC737;
-}
+} */
 .products{
     background: url("../img/products_background.svg");
     background-size: cover;
@@ -344,10 +344,10 @@ time, mark, audio, video {
         font-size: 19px;
         text-align: center;
     }
-    .button_contact_us{
+/*     .button_contact_us{
         max-width: 230px;
         font-size: 19px;
-    }
+    } */
 
     .products_content{
         padding-top:80px
@@ -374,9 +374,9 @@ time, mark, audio, video {
     .main_pretitle{
         font-size: 15px;
     }
-    .button_contact_us{
+/*     .button_contact_us{
         font-size: 15px;
-    }
+    } */
 }
 
 @media screen and (max-width: 456px) {
