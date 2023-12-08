@@ -16,8 +16,13 @@ $(document).ready(function() {
     fade_modal_in($('.contact_us_modal_window'), e);
     });
 
+    function clearForm(){
+        $('.contact_us_modal_window input').val('');
+        $('.contact_us_modal_window textarea').val('');
+    }
     $('.close_modal').on('click', function(){
-    $('.modal_overlay').fadeOut();
+        $('.modal_overlay').fadeOut();
+        clearForm()
     });
 
     $('.modal_thanks_btn').on('click', function(){
