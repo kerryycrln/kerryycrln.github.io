@@ -20,9 +20,13 @@ $(document).ready(function() {
         $('.contact_us_modal_window input').val('');
         $('.contact_us_modal_window textarea').val('');
     }
+    
+    $('.close_modal, .modal_button').on('click', function(){
+       clearForm()
+    });
+
     $('.close_modal').on('click', function(){
         $('.modal_overlay').fadeOut();
-        clearForm()
     });
 
     $('.modal_thanks_btn').on('click', function(){
