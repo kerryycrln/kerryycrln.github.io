@@ -232,7 +232,8 @@ time, mark, audio, video {
 }
 
 .modal_window_content{
-    padding: 23px 40px 40px 40px;
+    position: relative;
+    padding: 40px;
 }
 .modal_title{
     color: #000;
@@ -430,7 +431,11 @@ time, mark, audio, video {
     height: 219px;
 }
 .close_modal{
+    width: 30px;
     cursor: pointer;
+    position: absolute;
+    right: 31px;
+    top: 31px;
 }
 
 .nav_img_menu{
