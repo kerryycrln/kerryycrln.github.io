@@ -232,7 +232,7 @@ time, mark, audio, video {
 }
 
 .modal_window_content{
-    padding: 40px;
+    padding: 23px 40px 40px 40px;
 }
 .modal_title{
     color: #000;
