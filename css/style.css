@@ -235,6 +235,9 @@ time, mark, audio, video {
     position: relative;
     padding: 35px 35px 45px;
 }
+.calculator_modal_window .modal_window_content{
+    padding:40px;
+}
 .modal_title{
     color: #000;
     text-align: center;
