@@ -80,7 +80,7 @@
 } */
 .products{
     background: url("../img/products_background.svg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
