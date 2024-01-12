@@ -81,7 +81,7 @@
 .products{
     background: url("../img/products_background.svg");
     background-size: cover;
-    background-position: center;
+/*     background-position: center; */
     background-repeat: no-repeat;
     width: 100%;
     margin-bottom: 150px;
