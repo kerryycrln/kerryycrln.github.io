@@ -141,6 +141,7 @@
     padding: 33px 72px;
     background: #FFF;
     box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.08);
+    min-height: 331px;
 
     transition: 0.3s;
     cursor: pointer;
